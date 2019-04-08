@@ -1,20 +1,17 @@
 
-ul {
-  list-style-type: disc ;
-}
-
 li{
   display: inline;
   padding: 0px 100px 0px 100px;
 }
-.starter-template {
+
+.header {
   padding: 0.5rem 0.5rem;
   margin: 0 10vw 10vh 10vw;
   text-align: center;
   background-color: pink;
 }
 
-.topspace{
-    padding: 30px;
-    display: block;
-}
+  .top{
+      padding: 30px;
+      display: block;
+  }
