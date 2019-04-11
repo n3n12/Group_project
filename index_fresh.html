@@ -12,33 +12,25 @@
 </head>
 
 <body>
-  <div class="topspace">
-    <ul>
-      <li id="home">
-        <a ref = "index_fresh.html">Home</a>
-      </li>
-      <li>
-        <a ref="about.html">About</a>
-      </li>
-      <li>
-        <a ref="eat.html"> Eat </a>
-      </li>
-      <li>
-        <a ref="drink.html"> Drink </a>
-      </li>
-      <li>
-        <a ref="watch.html"> Watch </a>
-      </li>
-    </ul>
+  <div class="topnav-bar">
+        <h1>Hop <span>London</span></h1></a>
+        <div class="topnav-right">
+          <ul>
+            <li><a href="index_fresh.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="eat.html">Eat</a></li>
+            <li><a href="drink.html">Drink</a></li>
+            <li><a href="watch.html">Watch</a></li>
+          </ul>
+        </div>
+    </div>
   </div>
-</body>
+
+
+
+
+
     <main role="main" class="container">
-
-
-      <div class="starter-template">
-        <h1>HOP LONDON!</h1>
-        <P> Eat, Drink, Watch.
-      </div>
 
 <p>
 
@@ -56,13 +48,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="watch.jpg" alt="First slide">
+          <img class="d-block w-100" src="drink.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="watch.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="watch.jpg" alt="Third slide">
+          <img class="d-block w-100" src="eat.jpg" alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -76,11 +68,15 @@
       </div>
 
 
-  <body>
-        <h1>Sign up for deals!</h1>
-        <input type="email" placeholder="Your email">
-
-</body>
+      <div class="container">
+         <form action = "/action_page.php" method = "get">
+           <label for="fname">First name</label>
+               <input type = "text" name = "f_name" placeholder= "Your name..." >
+            <label for="email">Email</label>
+                <input type = "text" name = "email" placeholder= "Your email..." >
+          <input type="submit" value "Subscribe!">
+         </form>
+      </div>
 
     </main><!-- /.container -->
 

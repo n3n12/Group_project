@@ -1,0 +1,35 @@
+.one h2{
+  font-size: 20px;
+}
+.intro p{
+    font-family: 'Blippo', fantasy;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 25px 0 5px 10px;
+    text-align: center;
+    color: white;
+    background: rgba(248, 137, 7, 0.98);
+    border-radius: 25px;
+
+}
+
+article img {
+  max-width: 500px;
+  max-height: 300px
+  padding-bottom: 40px;
+}
+
+.image img:hover {
+    opacity: 0.5;
+    transition: all ease-in-out 550ms;
+  }
+
+article h2{
+  font-family: 'Blippo', fantasy;
+  font-size: 15px;
+}
+
+article p{
+  font-family: 'Blippo', fantasy;
+  font-size: 15px;
+}

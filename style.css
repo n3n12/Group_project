@@ -1,0 +1,43 @@
+
+.topnav-bar {
+  overflow: hidden;
+  background-color: white;
+  padding: 25px
+}
+.topnav-bar h1 {
+  float: left;
+  font-family: 'Blippo', fantasy;
+  margin: 0 auto;
+  letter-spacing: -0.5px;
+  font-size: 35px;
+  color: black;
+  text-transform: uppercase;
+  padding: 25px 0 20px 10px;
+}
+.topnav-bar h1 span {
+  color: gray;
+}
+.topnav-bar ul {
+  float: right;
+  list-style:none;
+  padding: 0 20px 0 0;
+}
+.topnav-bar li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 15px 0px 15px;
+}
+.topnav-bar a{
+  color: black;
+  font-family: 'Blippo', fantasy;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.topnav-bar a:hover {
+  color: gray;
+  font-size: 23px;
+}
+body{
+  padding: 50px;
+}
