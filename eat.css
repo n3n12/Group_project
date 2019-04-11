@@ -2,19 +2,6 @@
   font-size: 20px;
 }
 
-#intro{
-  font-family: 'Blippo', fantasy;
-  margin: 0 auto;
-  font-size: 20px;
-  padding: 25px 0 25px 10px;
-  text-align: center;
-  color: white;
-  background: #d64259;
-  border-radius: 50px;
-  width: 500px;
-  height: 80px;
-}
-
 article img {
   max-width: 500px;
   max-height: 300px
@@ -35,5 +22,10 @@ article img {
 article p{
   font-family: 'Blippo', fantasy;
   font-size: 20px;
+}
 
+.about h1{
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
 }

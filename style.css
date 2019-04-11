@@ -45,10 +45,41 @@
   width: 100%;
 }
 
+#intro{
+  font-family: 'Blippo', fantasy;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 25px 0 25px 10px;
+  text-align: center;
+  color: white;
+  background: #d64259;
+  border-radius: 50px;
+  width: 500px;
+  height: 80px;
+}
+
+#about{
+  font-family: 'Blippo', fantasy;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 25px 0 25px 10px;
+  text-align: center;
+  color: white;
+  background: #d64259;
+  border-radius: 50px;
+  width: 500px;
+}
+
+#about a{
+  color: black;
+  text-decoration: underline;
+}
+
+
 .contact{
     margin:auto;
     border-radius: 200px;
-    background-color:#5426b8;
+    background-color:#d64259;
     padding: 20px;
     font-family:'Blippo', fantasy;
     color: white;
@@ -87,5 +118,5 @@ input[type=submit] {
   font-size: 10px;
   font-family: 'Blippo', fantasy;
   text-align: center;
-  color: white;
+  color: #d64259;
 }
