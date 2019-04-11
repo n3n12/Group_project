@@ -9,7 +9,7 @@
   padding: 25px 0 25px 10px;
   text-align: center;
   color: white;
-  background: rgba(254, 178, 112, 0.7);
+  background: #d64259;
   border-radius: 50px;
   width: 500px;
   height: 80px;
@@ -18,7 +18,7 @@
 article img {
   max-width: 500px;
   max-height: 300px
-  padding-bottom: 40px;
+  position: center;
 }
 
 .image img:hover {
@@ -29,10 +29,11 @@ article img {
 #sub-heading{
   font-family: 'Blippo', fantasy;
   font-size: 30px;
+  color: #d64259;
 }
 
 article p{
   font-family: 'Blippo', fantasy;
-  font-size: 15px;
-  font: em;
+  font-size: 20px;
+
 }
