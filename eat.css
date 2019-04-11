@@ -1,17 +1,35 @@
+.one h2{
+  font-size: 20px;
+}
+.intro p{
+    font-family: 'Blippo', fantasy;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 25px 0 5px 10px;
+    text-align: center;
+    color: white;
+    background: rgba(248, 137, 7, 0.98);
+    border-radius: 25px;
 
-li{
-  display: inline;
-  padding: 0px 100px 0px 100px;
 }
 
-.header {
-  padding: 0.5rem 0.5rem;
-  margin: 0 10vw 10vh 10vw;
-  text-align: center;
-  background-color: pink;
+article img {
+  max-width: 500px;
+  max-height: 300px
+  padding-bottom: 40px;
 }
 
-  .top{
-      padding: 30px;
-      display: block;
+.image img:hover {
+    opacity: 0.5;
+    transition: all ease-in-out 550ms;
   }
+
+article h2{
+  font-family: 'Blippo', fantasy;
+  font-size: 15px;
+}
+
+article p{
+  font-family: 'Blippo', fantasy;
+  font-size: 15px;
+}
