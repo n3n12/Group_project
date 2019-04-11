@@ -1,16 +1,18 @@
 .one h2{
   font-size: 20px;
 }
-.intro p{
-    font-family: 'Blippo', fantasy;
-    margin: 0 auto;
-    font-size: 25px;
-    padding: 25px 0 5px 10px;
-    text-align: center;
-    color: white;
-    background: rgba(248, 137, 7, 0.98);
-    border-radius: 25px;
 
+#intro{
+  font-family: 'Blippo', fantasy;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 25px 0 25px 10px;
+  text-align: center;
+  color: white;
+  background: rgba(254, 178, 112, 0.7);
+  border-radius: 50px;
+  width: 500px;
+  height: 80px;
 }
 
 article img {
@@ -24,12 +26,13 @@ article img {
     transition: all ease-in-out 550ms;
   }
 
-article h2{
+#sub-heading{
   font-family: 'Blippo', fantasy;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 article p{
   font-family: 'Blippo', fantasy;
   font-size: 15px;
+  font: em;
 }

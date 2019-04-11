@@ -15,7 +15,7 @@
   padding: 25px 0 20px 10px;
 }
 .topnav-bar h1 span {
-  color: gray;
+  color: rgba(254, 178, 112, 0.7);
 }
 .topnav-bar ul {
   float: right;
@@ -35,9 +35,30 @@
   font-size: 20px;
 }
 .topnav-bar a:hover {
-  color: gray;
+  color: rgba(254, 178, 112, 0.7);
   font-size: 23px;
 }
+
+.carousel-inner{
+  height: 700px;
+  margin: 0 auto;
+}
+
 body{
   padding: 90px;
+}
+
+.contact{
+    margin:auto;
+    border-radius: 5px;
+    background-color:rgba(254, 178, 112, 0.7);
+    padding: 20px;
+    font-family:'Nanum Pen Script', cursive;
+    color: white;
+}
+
+#copyright{
+  font-size: 10px;
+  font-family: 'Blippo', fantasy;
+  text-align: center;
 }
